@@ -1,0 +1,89 @@
+.filters {
+  width: 268px;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+}
+.filters-form__wrapper {
+  width: 268px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 30px;
+  padding-left: 21px;
+  padding-top: 36px;
+  padding-bottom: 6px;
+  margin-bottom: 30px;
+}
+.filters-form__fieldset {
+  border: none;
+  padding-bottom: 0;
+}
+.filters-form__fieldset legend {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  color: #ff5912;
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+.filters-form__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.filters-form__item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.filters-form__item label {
+  color: #34404b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-left: 30px;
+}
+.filters-form__button {
+  background-color: transparent;
+  color: #34404b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  width: 100px;
+  height: 20px;
+  border: none;
+}
+.filters-form__size + label .checkbox-indicator,
+.filters-form__brand + label .checkbox-indicator {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  width: 13px;
+  height: 13px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #edf0f2;
+}
+.filters-form__size:checked + label .checkbox-indicator,
+.filters-form__brand:checked + label .checkbox-indicator {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  width: 13px;
+  height: 13px;
+  box-sizing: border-box;
+  border: #ff5912 4px solid;
+  background-color: transparent;
+}
+.filters-form__size:checked + label,
+.filters-form__brand:checked + label {
+  color: #ff5912;
+}
+.filter_button {
+  width: 268px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  color: #ff5912;
+}
+/*# sourceMappingURL=filters.css.map */

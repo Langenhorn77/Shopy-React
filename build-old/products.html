@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>Shopy catalog page</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<header class="page-header">
+  <div class="page-header__info">
+    <ul class="page-header__info-contact contact">
+      <li class="contact__item contact__item--mail"><a href="#">info@shopy.com</a></li>
+      <li class="contact__item contact__item--phone"><a href="#">453 - 5553 - 996</a></li>
+    </ul>
+    <ul class="page-header__info-social social">
+      <li class="social__item"><a href="facebook.com" aria-label="Facebook">
+        <svg class="social__item-icon" width="5.78" height="11">
+          <use xlink:href="#icon-facebook"></use>
+        </svg>
+      </a></li>
+      <li class="social__item"><a href="twitter.com" aria-label="Twitter">
+        <svg class="social__item-icon" width="13.03" height="11">
+          <use xlink:href="#icon-twitter"></use>
+        </svg>
+      </a></li>
+      <li class="social__item"><a href="google.com" aria-label="Google">
+        <svg class="social__item-icon" width="12.31" height="11">
+          <use xlink:href="#icon-google+"></use>
+        </svg>
+      </a></li>
+      <li class="social__item"><a href="instagram.com" aria-label="Instagram">
+        <svg class="social__item-icon" width="10.84" height="11">
+          <use xlink:href="#icon-instagram"></use>
+        </svg>
+      </a></li>
+    </ul>
+  </div>
+  <div class="page-header__menu main-menu">
+    <a href="index.html"><img src="img/logo-shopy.png" height="38" width="118" alt="Shopy logo"/></a>
+    <ul class="main-menu__nav-list">
+      <li class="main-menu__nav-item"><a href="index.html">Home</a></li>
+      <li class="main-menu__nav-item main-menu__nav-item--active"><a>Products</a></li>
+      <li class="main-menu__nav-item"><a href="#">Hot Deals</a></li>
+      <li class="main-menu__nav-item"><a href="#">About</a></li>
+      <li class="main-menu__nav-item"><a href="#">Contact</a></li>
+    </ul>
+    <ul class="main-menu__user-list">
+      <li class="main-menu__user-item"><a href="#"><img src="img/icon-search.svg" alt="Search"></a></li>
+      <li class="main-menu__user-item"><a href="#"><img src="img/icon-user.svg" alt="Your account"></a></li>
+      <li class="main-menu__user-item"><a href="#"><img src="img/icon-cart.svg" alt="Cart"></a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="page-main">
+  <h1 class="visually-hidden">Shopy Catalog</h1>
+  <div class="page-main__wrapper">
+    <aside class="filters">
+      <form class="filters-form" action="#" method="get">
+        
+        <div class="filters-form__wrapper">
+          <fieldset class="filters-form__fieldset">
+            <legend>Categories</legend>
+            <ul class="filters-form__list">
+              <li class="filters-form__item">
+                <button class="filters-form__button" type="button">Man</button>
+              </li>
+              <li class="filters-form__item">
+                <button class="filters-form__button" type="button">Woman</button>
+              </li>
+              <li class="filters-form__item">
+                <button class="filters-form__button" type="button">Childrens</button>
+              </li>
+              <li class="filters-form__item">
+                <button class="filters-form__button" type="button">Hot Deals</button>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+  
+        <div class="filters-form__wrapper">
+          <fieldset class="filters-form__fieldset">
+            <legend>Price Filter</legend>
+            <!--Место для ползунка!-->
+          </fieldset>
+        </div>
+  
+        <div class="filters-form__wrapper">
+          <fieldset class="filters-form__fieldset">
+            <legend>Sizes</legend>
+            <ul class="filters-form__list">
+              <li class="filters-form__item">
+                <input class="visually-hidden filters-form__size" type="checkbox" name="small" id="small">
+                <label for="small"><span class="checkbox-indicator"></span>
+                  Small
+                </label>
+              </li>
+              <li class="filters-form__item">
+                <input class="visually-hidden filters-form__size" type="checkbox" name="medium" id="medium">
+                <label for="medium"><span class="checkbox-indicator"></span>
+                  Medium
+                </label>
+              </li>
+              <li class="filters-form__item">
+                <input class="visually-hidden filters-form__size" type="checkbox" name="large" id="large">
+                <label for="large"><span class="checkbox-indicator"></span>
+                  Large
+                </label>
+              </li>
+              <li class="filters-form__item">
+                <input class="visually-hidden filters-form__size" type="checkbox" name="x-large" id="x-large">
+                <label for="x-large"><span class="checkbox-indicator"></span>
+                  X Large
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+  
+        <div class="filters-form__wrapper">
+          <fieldset class="filters-form__fieldset">
+            <legend>Brands</legend>
+            <ul class="filters-form__list">
+              <li class="filters-form__item">
+                <input class="visually-hidden filters-form__brand" type="checkbox" name="reebok" id="reebok" checked>
+                <label for="reebok"><span class="checkbox-indicator"></span>
+                  Reebok
+                </label>
+              </li>
+              <li class="filters-form__item">
+                <input class="visually-hidden filters-form__size" type="checkbox" name="addidas" id="addidas">
+                <label for="addidas"><span class="checkbox-indicator"></span>
+                  Addidas
+                </label>
+              </li>
+              <li class="filters-form__item">
+                <input class="visually-hidden filters-form__size" type="checkbox" name="nike" id="nike">
+                <label for="nike"><span class="checkbox-indicator"></span>
+                  Nike
+                </label>
+              </li>
+              <li class="filters-form__item">
+                <input class="visually-hidden filters-form__size" type="checkbox" name="active" id="active">
+                <label for="active"><span class="checkbox-indicator"></span>
+                  Active
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+        
+      </form>
+    </aside>
+    <section class="catalog">
+      <div class="catalog__wrapper">
+        <div class="product-card">
+          <img class="product-card__image" src="img/product-2.jpg" alt="Product-3 photo" height="216" width="159"/>
+          <p class="product-card__desc">Reebok Track Jacket</p>
+          <p class="product-card__price">100$</p>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image" src="img/product-3.jpg" alt="Product-3 photo" height="216" width="144"/>
+          <p class="product-card__desc">Reebok Track Jacket</p>
+          <p class="product-card__price">100$</p>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image" src="img/product-1.jpg" alt="Product-3 photo" height="216" width="170"/>
+          <p class="product-card__desc">Reebok Track Jacket</p>
+          <p class="product-card__price">100$</p>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image" src="img/product-2.jpg" alt="Product-3 photo" height="216" width="159"/>
+          <p class="product-card__desc">Reebok Track Jacket</p>
+          <p class="product-card__price">100$</p>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image" src="img/product-3.jpg" alt="Product-3 photo" height="216" width="144"/>
+          <p class="product-card__desc">Reebok Track Jacket</p>
+          <p class="product-card__price">100$</p>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image" src="img/product-1.jpg" alt="Product-3 photo" height="216" width="170"/>
+          <p class="product-card__desc">Reebok Track Jacket</p>
+          <p class="product-card__price">100$</p>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image" src="img/product-2.jpg" alt="Product-3 photo" height="216" width="159"/>
+          <p class="product-card__desc">Reebok Track Jacket</p>
+          <p class="product-card__price">100$</p>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image" src="img/product-3.jpg" alt="Product-3 photo" height="216" width="144"/>
+          <p class="product-card__desc">Reebok Track Jacket</p>
+          <p class="product-card__price">100$</p>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image" src="img/product-1.jpg" alt="Product-3 photo" height="216" width="170"/>
+          <p class="product-card__desc">Reebok Track Jacket</p>
+          <p class="product-card__price">100$</p>
+        </div>
+      </div>
+      <button class="catalog__show show_btn" type="button" aria-label="Show More"><img src="img/icon-dots.svg" alt="dots"></button>
+    </section>
+  </div>
+  
+</main>
+
+<footer class="page-footer">
+  <div class="page-footer__copyright">
+    <a href="index.html"><img src="img/logo-shopy.png" height="38" width="118" alt="Shopy logo"/></a>
+    <p>shopy c 2015 . your copyright here</p>
+  </div>
+  <ul class="page-footer__menu-list">
+    <li class="page-footer__menu-item page-footer__menu-item--active"><a href="#">about us</a></li>
+    <li class="page-footer__menu-item"><a href="#">our feed</a></li>
+    <li class="page-footer__menu-item"><a href="#">join us</a></li>
+    <li class="page-footer__menu-item"><a href="#">contact us</a></li>
+    <li class="page-footer__menu-item"><a href="#">terms and conditions</a></li>
+    <li class="page-footer__menu-item"><a href="#">live support</a></li>
+    <li class="page-footer__menu-item"><a href="#">support</a></li>
+    <li class="page-footer__menu-item"><a href="#">our privacy</a></li>
+  </ul>
+  <div class="page-footer__payment">
+    <h3>Payment Methods</h3>
+    <ul class="page-footer__payment-list">
+      <li class="page-footer__payment-item"><a href="#"><img src="img/payment-1.jpg" height="19" width="27"/></a></li>
+      <li class="page-footer__payment-item"><a href="#"><img src="img/payment-2.jpg" height="18" width="26"/></a></li>
+      <li class="page-footer__payment-item"><a href="#"><img src="img/payment-3.jpg" height="19" width="27"/></a></li>
+      <li class="page-footer__payment-item"><a href="#"><img src="img/payment-4.jpg" height="19" width="27"/></a></li>
+      <li class="page-footer__payment-item"><a href="#"><img src="img/payment-5.jpg" height="19" width="27"/></a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 27px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact__item a {
+  font-size: 12px;
+  line-height: 14.4px;
+  color: #34404b;
+  text-decoration: none;
+  position: relative;
+}
+.contact__item a:hover {
+  color: #ff5912;
+}
+.contact__item a:active {
+  opacity: 0.5;
+}
+.contact__item--mail a::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -27px;
+  width: 18px;
+  height: 11px;
+  background-image: url("../../img/icon-mail.svg");
+}
+.contact__item--phone a::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: -21px;
+  width: 12px;
+  height: 12px;
+  background-image: url("../../img/icon-phone.svg");
+}
+/*# sourceMappingURL=contact.css.map */

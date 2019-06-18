@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "HarmoniaSansProCyr";
+  src: url("./fonts/HarmoniaSansProCyr-Light.woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HarmoniaSansProCyr";
+  src: url("./fonts/HarmoniaSansProCyr-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HarmoniaSansProCyr";
+  src: url("./fonts/HarmoniaSansProCyr-Italic.woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HarmoniaSansProCyr";
+  src: url("./fonts/HarmoniaSansProCyr-SemiBd.woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HarmoniaSansProCyr";
+  src: url("./fonts/HarmoniaSansProCyr-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HarmoniaSansProCyr";
+  src: url("./fonts/HarmoniaSansProCyr-Black.woff");
+  font-weight: 800;
+  font-style: normal;
+}
+/*# sourceMappingURL=font.css.map */
