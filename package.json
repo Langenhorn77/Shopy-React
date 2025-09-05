@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "gulp": "^4.0.2",
-    "less": "^3.9.0",
+    "less": "^3.13.1",
     "rc-slider": "^8.6.11",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
